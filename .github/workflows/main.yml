@@ -27,7 +27,7 @@ jobs:
           application: 'PLAY'
           checkoutLevel: 'DEV1'
           gitUid: ${{ 'GITUID' }}
-          gitToken: ${{ secrets.GITHUB_TOKEN}}
+          gitToken: ${{ secrets.GIT_TOKEN}}
           winTopazPath: ${{ env.Win_Topaz_Location }}
           #containerCreation: 'per-branch'
           showEnv: true
