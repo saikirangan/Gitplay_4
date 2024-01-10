@@ -3,5 +3,5 @@
        ENVIRONMENT DIVISION.                                            00030001
        DATA DIVISION.                                                   00040001
        PROCEDURE DIVISION.                                              00060001
-           DISPLAY 'HELLO POPUP'.                                       00070001
+           DISPLAY 'POPUP_WORLD'.                                       00070001
            STOP RUN.                                                    00080001
