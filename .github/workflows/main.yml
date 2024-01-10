@@ -20,14 +20,14 @@ jobs:
         with:
           host: '10.10.1.172'
           port: 16196
-          uid: ${{ secrets.ADCDS }}
-          pass: ${{ secrets.SANDHATA }}
+          uid: ${{ secrets.TSOUSER }}
+          pass: ${{ secrets.TSOPASS }}
           runtimeConfiguration: 'ISPT'
           stream: 'PLAY'
           application: 'PLAY'
           checkoutLevel: 'DEV1'
-          gitUid: ${{ 'https://github.com/saikirangan/Gitplay_4.git' }}
-          gitToken: ${{ secrets.ACTIONS_KEY }}
+          gitUid: ${{ 'GITUID' }}
+          gitToken: ${{ secrets.GITHUB_TOKEN}}
           winTopazPath: ${{ env.Win_Topaz_Location }}
           #containerCreation: 'per-branch'
           showEnv: true
@@ -40,7 +40,7 @@ jobs:
         with:
           ces_url: 'http://10.10.1.174:48226/'
           ces_token: ${{ secrets.CES_TOKEN }}
-          srid: ${{ ISPT }}
+          srid: 'ISPT'
           runtime_configuration: 'ISPT'
           generate_automatically: ${{ steps.sync.outputs.automaticBuildJson }}
       - name: generate output
@@ -64,6 +64,6 @@ jobs:
         with:
           ces_url: 'http://10.10.1.174:48226/'
           ces_token: ${{ secrets.CES_TOKEN }}
-          srid: ${{ ISPT }}
+          srid: 'ISPT'
           runtime_configuration: 'ISPT'
           deploy_automatically: ${{ steps.sync.outputs.automaticBuildJson }}
