@@ -6,7 +6,7 @@ on: [push]
 jobs:
   generate:
     name: sync, build & deploy
-    runs-on: [self-hosted, Windows]
+    runs-on: [self-hosted, testlabel-2]
     env:
       Win_Topaz_Location: 'C:\WorkbenchCLI'
     steps:
@@ -40,7 +40,7 @@ jobs:
         with:
           ces_url: 'http://10.10.1.174:48226/'
           ces_token: ${{ secrets.CES_TOKEN }}
-          #srid: ${{ srid }}
+          srid: ${{ ISPT }}
           runtime_configuration: 'ISPT'
           generate_automatically: ${{ steps.sync.outputs.automaticBuildJson }}
       - name: generate output
@@ -64,6 +64,6 @@ jobs:
         with:
           ces_url: 'http://10.10.1.174:48226/'
           ces_token: ${{ secrets.CES_TOKEN }}
-          #srid: ${{ srid }}
+          srid: ${{ ISPT }}
           runtime_configuration: 'ISPT'
           deploy_automatically: ${{ steps.sync.outputs.automaticBuildJson }}
