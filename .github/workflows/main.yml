@@ -8,7 +8,7 @@ jobs:
     name: sync, build & deploy
     runs-on: [self-hosted, testlabel-2]
     env:
-      Win_Topaz_Location: 'C:\WorkbenchCLI'
+      Win_Topaz_Location: 'C:\Users\sandhata\BMC\Workbench CLI'
     steps:
       - name: checkout step
         uses: actions/checkout@v2
