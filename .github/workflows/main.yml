@@ -67,3 +67,4 @@ jobs:
           srid: 'ISPT'
           runtime_configuration: 'ISPT'
           deploy_automatically: ${{ steps.sync.outputs.automaticBuildJson }}
+             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
