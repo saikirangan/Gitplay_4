@@ -8,3 +8,111 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCkxL3YDF4uHqw43ODexEJ6VIuJ3Utw/nZK/jqOwq1d
       genParms: GENPARMS
       ispwType: COB
       progType: 'Yes'
+
+      - path: /COB
+  types: 
+    - fileExtension: cob
+      ispwType: COB 
+      cics: 'No'
+      sql: 'No'
+    - fileExtension: .db2
+      ispwType: COB 
+      progType: 'No'
+      cics: 'No'
+      sql: 'Yes'
+    - fileExtension: CSNNN
+      ispwType: COB
+      progType: 'No'
+      cics: 'No'
+      sql: 'No'
+      flag4: 'No'
+    - fileExtension: CSNNM
+      ispwType: COB
+      progType: 'No'
+      cics: 'No'
+      sql: 'No'
+      flag4: 'Yes'
+    - fileExtension: CSNDN
+      ispwType: COB
+      progType: 'No'
+      cics: 'No'
+      sql: 'Yes'
+      flag4: 'No'
+    - fileExtension: CSNDM
+      ispwType: COB
+      progType: 'No'
+      cics: 'No'
+      sql: 'Yes'
+      flag4: 'Yes'
+    - fileExtension: CSCNN
+      ispwType: COB
+      progType: 'No'
+      cics: 'Yes'
+      sql: 'No'
+      flag4: 'No'
+    - fileExtension: CSCNM
+      ispwType: COB
+      progType: 'No'
+      cics: 'Yes'
+      sql: 'No'
+      flag4: 'Yes'
+    - fileExtension: CSCDN
+      ispwType: COB
+      progType: 'No'
+      cics: 'Yes'
+      sql: 'Yes'
+      flag4: 'No'
+    - fileExtension: CSCDM
+      ispwType: COB
+      progType: 'No'
+      cics: 'Yes'
+      sql: 'Yes'
+      flag4: 'Yes'  
+    - fileExtension: CMNNN
+      ispwType: COB
+      progType: 'Yes'
+      cics: 'No'
+      sql: 'No'
+      flag4: 'No'
+    - fileExtension: CMNNM
+      ispwType: COB
+      progType: 'Yes'
+      cics: 'No'
+      sql: 'No'
+      flag4: 'Yes'
+    - fileExtension: CMNDN
+      ispwType: COB
+      progType: 'Yes'
+      cics: 'No'
+      sql: 'Yes'
+      flag4: 'No'
+    - fileExtension: CMNDM
+      ispwType: COB
+      progType: 'Yes'
+      cics: 'No'
+      sql: 'Yes'
+      flag4: 'Yes'
+    - fileExtension: CMCNN
+      ispwType: COB
+      progType: 'Yes'
+      cics: 'Yes'
+      sql: 'No'
+      flag4: 'No'
+    - fileExtension: CMCNM
+      ispwType: COB
+      progType: 'Yes'
+      cics: 'Yes'
+      sql: 'No'
+      flag4: 'Yes'
+    - fileExtension: CMCDN
+      ispwType: COB
+      progType: 'Yes'
+      cics: 'Yes'
+      sql: 'Yes'
+      flag4: 'No'
+    - fileExtension: CMCDM
+      ispwType: COB
+      progType: 'Yes'
+      cics: 'Yes'
+      sql: 'Yes'
+      flag4: 'Yes'
