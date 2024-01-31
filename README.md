@@ -8,3 +8,17 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCkxL3YDF4uHqw43ODexEJ6VIuJ3Utw/nZK/jqOwq1d
 
  //JOBNAME JOB ('ACCOUNTING INFO'),'NAME',NOTIFY=&SYSUID,CLASS=A,
 //        MSGCLASS=R,REGION=0M
+
+- path: \COB
+   types:
+   - cics: 'No'
+     fileExtension: cob
+     flag1: A
+     flag2: B
+     flag3: C
+     flag4: D
+     genParms: GENPARMS
+     ims: 'No'
+     ispwType: COB
+     progType: 'Yes'
+     sql: 'No'
