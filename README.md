@@ -30,3 +30,8 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCkxL3YDF4uHqw43ODexEJ6VIuJ3Utw/nZK/jqOwq1d
       progType: 'Yes'
       cics: 'No'
       sql: 'Yes'
+
+on:
+  push:
+    paths:
+      - 'COB/**'
