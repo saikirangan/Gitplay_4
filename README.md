@@ -22,3 +22,11 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCkxL3YDF4uHqw43ODexEJ6VIuJ3Utw/nZK/jqOwq1d
      ispwType: COB
      progType: 'Yes'
      sql: 'No'
+     
+ - path: \COB
+    types: 
+    - fileExtension: cob
+      ispwType: COB 
+      progType: 'Yes'
+      cics: 'No'
+      sql: 'Yes'
