@@ -35,3 +35,4 @@ on:
   push:
     paths:
       - 'COB/**'
+https://archive.eclipse.org/egit/updates-6.1
